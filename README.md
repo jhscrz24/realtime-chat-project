@@ -1,4 +1,4 @@
-
+# Chizmisify - A Realtime Chat App
 
 Highlights:
 
