@@ -4,6 +4,8 @@
 
 ![Demo App2](/frontend/public/screenshot-for-readme2.png)
 
+![Demo App3](/frontend/public/screenshot-for-readme3.png)
+
 Highlights:
 
 - Tech stack: MERN (MongoDB, Express, React, Node.js) combined with Socket.io, TailwindCSS, and DaisyUI
