@@ -11,10 +11,14 @@ import { connect } from "mongoose";
 import { connectDB } from "./lib/db.js";
 import { app, server } from "./lib/socket.js";
 
+import job from "./config/cron.js";
+
 dotenv.config();
 
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
+
+if (env.NODE_ENV === "production") job.start();
 
 app.use(express.json());
 app.use(cookieParser());
@@ -24,6 +28,10 @@ app.use(
     credentials: true,
   })
 );
+
+app.get("/api/health", (req, res) => {
+  res.status(200).json({ success: true });
+});
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
