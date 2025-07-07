@@ -13,6 +13,7 @@ Highlights:
 - Real-time chat functionality powered by Socket.io
 - Displays online/offline user status
 - Global state management with Zustand
+- Cron Package for Free Plan if Deploying
 
 ### Setup .env file
 
