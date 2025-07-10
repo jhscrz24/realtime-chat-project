@@ -12,7 +12,7 @@ Highlights:
 - Implements authentication and authorization using JWT
 - Real-time chat functionality powered by Socket.io
 - Displays online/offline user status
-- 32 Themes using DaisyUI
+- Offers 32 customizable color themes using DaisyUI
 - Global state management with Zustand
 - Cron Package for Free Plan if Deploying
 
