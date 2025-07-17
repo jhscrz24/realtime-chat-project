@@ -14,7 +14,6 @@ Highlights:
 - Displays online/offline user status
 - Offers 32 customizable color themes using DaisyUI
 - Global state management with Zustand
-- Cron Package for Free Plan if Deploying
 
 ### Setup .env file
 
